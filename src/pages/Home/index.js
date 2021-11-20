@@ -6,7 +6,9 @@ import Fade from '@mui/material/Fade';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-
+import { ethers } from 'ethers'
+import Web3 from 'web3'
+import Web3Modal from "web3modal";
 import { getImg } from "../../hook/Helper";
 import styles from './Home.module.sass';
 import { CustomButton } from "../../components/CustomButton";
